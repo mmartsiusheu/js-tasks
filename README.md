@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mmartsiusheu/js-assignments.svg?branch=master)](https://travis-ci.org/it-shark-pro/js-assignments)
+[![Build Status](https://travis-ci.org/mmartsiusheu/js-tasks.svg?branch=master)](https://travis-ci.org/mmartsiusheu/js-tasks)
 ![Hackage-Deps](https://img.shields.io/hackage-deps/v/lens.svg)
 [![Greenkeeper badge](https://badges.greenkeeper.io/mmartsiusheu/js-assignments.svg)](https://greenkeeper.io/)
 [![GitHub release](https://img.shields.io/github/release/mmartsiusheu/js-assignments.svg)](https://github.com/mmartsiusheu/js-assignments/releases/latest)
