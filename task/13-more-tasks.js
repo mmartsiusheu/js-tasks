@@ -12,7 +12,9 @@
  *   'abcdefghijklmnop',  'lmnopqrstuvwxyz'  => 'abcdefghijklmnopqrstuvwxyz'
  */
 function distinctLettersString(value1, value2) {
-  throw new Error('Not implemented');
+  let str = value1 + value2;
+  let set = new Set(str.split(""));
+  return Array.from(set).sort().join("");
 }
 
 
@@ -29,7 +31,22 @@ function distinctLettersString(value1, value2) {
  */
 
 function lowerLetters(value) {
-  throw new Error('Not implemented');
+  let letters = "qwertyuiopasdfghjklzxcvbnm".split("");
+  let newValue = value.split("");
+  let map = {};
+
+  newValue.forEach((letter, index) => {
+    if(letters.some(elem => elem === letter)){
+      if (newValue.indexOf(letter) === index){
+        map[letter] = 1;
+      }
+      else {
+        map[letter]++;
+      }
+    }
+  })
+
+  return map;
 }
 
 /**
